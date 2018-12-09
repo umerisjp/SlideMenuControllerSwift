@@ -36,7 +36,7 @@ public struct SlideMenuOptions {
     public static var hideStatusBar: Bool = true
     public static var pointOfNoReturnWidth: CGFloat = 44.0
     public static var simultaneousGestureRecognizers: Bool = true
-    public static var reequiredToFailByGestureRecognizers: Bool = false
+    public static var requiredToFailByGestureRecognizers: Bool = false
 	public static var opacityViewBackgroundColor: UIColor = UIColor.black
     public static var panGesturesEnabled: Bool = true
     public static var tapGesturesEnabled: Bool = true
@@ -987,7 +987,7 @@ open class SlideMenuController: UIViewController, UIGestureRecognizerDelegate {
     }
 
     open func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
-        return SlideMenuOptions.reequiredToFailByGestureRecognizers
+        return SlideMenuOptions.requiredToFailByGestureRecognizers
     }
     
     fileprivate func slideLeftForGestureRecognizer( _ gesture: UIGestureRecognizer, point:CGPoint) -> Bool{
