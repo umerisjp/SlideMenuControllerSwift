@@ -1,5 +1,8 @@
-4.0.0 Release notes (2017-10-31)
+5.0.0 Release notes (2017-10-31)
 =============================================================
+### Enhancements
+* Support Swift5.0
+
 
 ### Enhancements
 * Support Swift4.0
