@@ -12,7 +12,7 @@ SlideMenuControllerSwift
 [![Downloads](https://img.shields.io/cocoapods/dt/SlideMenuControllerSwift.svg)](https://cocoapods.org/pods/SlideMenuControllerSwift)
 
 
-
+This is test change.
 iOS Slide View based on iQON, Feedly, Google+, Ameba iPhone app.
 
 ![sample](Screenshots/SlideMenuControllerSwift3.gif)
