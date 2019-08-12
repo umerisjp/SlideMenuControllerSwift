@@ -427,6 +427,8 @@ open class SlideMenuController: UIViewController, UIGestureRecognizerDelegate {
                 }
             case UIGestureRecognizer.State.failed, UIGestureRecognizer.State.possible:
                 break
+        @unknown default:
+            fatalError()
         }
         
         LeftPanState.lastState = panGesture.state
@@ -508,6 +510,8 @@ open class SlideMenuController: UIViewController, UIGestureRecognizerDelegate {
             }
         case UIGestureRecognizer.State.failed, UIGestureRecognizer.State.possible:
             break
+        @unknown default:
+            fatalError()
         }
         
         RightPanState.lastState = panGesture.state
