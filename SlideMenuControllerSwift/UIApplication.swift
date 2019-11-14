@@ -19,6 +19,7 @@ extension UIApplication {
             }
         }
         if let presented = viewController?.presentedViewController {
+            presented.modalPresentationStyle = .fullScreen
             return topViewController(presented)
         }
         
